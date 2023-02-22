@@ -137,7 +137,9 @@ p {
   background: var(--branding-color);
   color: white;
 }
-
+.duties {
+  padding: 0px 60px;
+}
 .project-desciption {
   padding: 20px 60px;
 }
@@ -249,6 +251,10 @@ footer .social-links a:hover {
   }
   .project-desciption ul {
     text-align: left;
+  }
+  .company-logo {
+    display: block;
+    margin: auto;
   }
 }
 @media (min-width: 768px) and (max-width: 900px) {
