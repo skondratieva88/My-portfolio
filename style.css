@@ -37,7 +37,10 @@ p {
   font-size: 20px;
   line-height: 30px;
 }
-
+.site-logo {
+  width: 200px;
+  height: 120px;
+}
 .p-objective {
   font-size: 20px;
   line-height: 30px;
