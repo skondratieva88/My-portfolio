@@ -24,7 +24,9 @@ h1 {
   font-size: 96px;
   line-height: 1.5;
 }
-
+.copyrights {
+  font-size: 18px;
+}
 h2 {
   font-size: 64px;
 }
@@ -241,7 +243,9 @@ footer .social-links a:hover {
   h2 {
     font-size: 44px;
   }
-
+  .hero h2 {
+    font-size: 34px;
+  }
   h3 {
     font-size: 30px;
   }
@@ -267,6 +271,9 @@ footer .social-links a:hover {
   }
   .duties {
     text-align: center;
+  }
+  .copyrights {
+    font-size: 16px;
   }
 }
 @media (min-width: 768px) and (max-width: 900px) {
