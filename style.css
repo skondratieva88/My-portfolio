@@ -147,7 +147,7 @@ p {
   color: white;
 }
 .duties {
-  padding: 0px 60px;
+  padding-left: 200px;
 }
 .project-desciption {
   padding: 20px 60px;
@@ -175,6 +175,9 @@ nav li {
 
 .experince-list {
   font-size: 20px;
+}
+.company {
+  margin-top: 100px;
 }
 
 nav a {
@@ -221,7 +224,9 @@ footer .social-links a {
   font-size: 18px;
   transition: all 100ms ease-in-out;
 }
-
+.experience-title {
+  margin-bottom: 90px;
+}
 footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
@@ -271,6 +276,7 @@ footer .social-links a:hover {
   }
   .duties {
     text-align: center;
+    padding-left: 0px;
   }
   .copyrights {
     font-size: 16px;
