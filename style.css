@@ -309,6 +309,9 @@ footer .social-links a:hover {
   .content-container {
     padding: 70px 20px 20px 20px;
   }
+  .hero {
+    padding-top: 130px;
+  }
   .desciption ul {
     text-align: left;
   }
