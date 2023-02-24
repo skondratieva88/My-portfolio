@@ -54,8 +54,8 @@ p {
 .navlink {
   color: #272142;
 }
-.p-objective {
-  font-size: 20px;
+.objective {
+  font-size: 24px;
   line-height: 30px;
   padding-bottom: 40px;
 }
@@ -158,10 +158,10 @@ p {
   background: var(--branding-color);
   color: white;
 }
-.duties {
+.position {
   padding-left: 200px;
 }
-.project-desciption {
+.desciption {
   padding: 20px 60px;
 }
 
@@ -185,7 +185,7 @@ nav li {
   margin-left: 15px;
 }
 
-.experince-list {
+.description-list {
   font-size: 20px;
 }
 .company {
@@ -283,21 +283,21 @@ footer .social-links a:hover {
     padding: 0;
   }
 
-  .project-desciption {
+  .desciption {
     padding: 0;
     text-align: center;
   }
   .content-container {
     padding: 20px 20px;
   }
-  .project-desciption ul {
+  .desciption ul {
     text-align: left;
   }
   .company-logo {
     display: block;
     margin: auto;
   }
-  .duties {
+  .position {
     text-align: center;
     padding-left: 0px;
   }
@@ -315,7 +315,7 @@ footer .social-links a:hover {
 }
 
 @media (min-width: 992px) and (max-width: 1400px) {
-  .project-desciption {
+  .desciption {
     padding-top: 20px;
   }
   .navbar-collapse {
