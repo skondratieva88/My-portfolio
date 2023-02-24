@@ -118,6 +118,11 @@ p {
 .experience-title {
   margin-bottom: 90px;
 }
+.anchor {
+  height: 75vh;
+  margin: 0;
+  scroll-margin-top: 1em;
+}
 
 /* images styles */
 
