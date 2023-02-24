@@ -42,7 +42,7 @@ p {
 .site-logo {
   max-width: 200px;
 }
-.navbar {
+.navbar-bg {
   background-color: var(--secondary-color);
 }
 .navlink {
