@@ -119,9 +119,8 @@ p {
   margin-bottom: 90px;
 }
 .anchor {
-  height: 75vh;
   margin: 0;
-  scroll-margin-top: 20px;
+  scroll-margin-top: 40px;
 }
 
 /* images styles */
