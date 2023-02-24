@@ -121,7 +121,7 @@ p {
 .anchor {
   height: 75vh;
   margin: 0;
-  scroll-margin-top: 1em;
+  scroll-margin-top: 20px;
 }
 
 /* images styles */
@@ -183,7 +183,11 @@ p {
 }
 
 /* navigation styles */
-
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
 .navbar-bg-brand {
   background-color: var(--secondary-color);
 }
