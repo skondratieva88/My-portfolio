@@ -35,33 +35,42 @@
   </head>
   <body>
     <div class="container">
-      <nav class="d-flex justify-content-between">
-        <a href="/" title="Homepage">
-          <img
-            src="images/logo.png"
-            class="logo d-none d-md-block"
-            alt=" Logo"
-          />
-          <img
-            src="images/logo-small.jpg"
-            class="logo d-block d-md-none"
-            alt=" Logo"
-          />
-        </a>
-        <ul>
-          <li>
-            <a href="/" title="Homepage"> Home</a>
-          </li>
-          <li>
-            <a href="/about.html" title="About "> About me</a>
-          </li>
-          <li>
-            <a href="/work.html" title="Work"> My works</a>
-          </li>
-          <li class="active">
-            <a href="/contact.html" title="Contact"> Contact me</a>
-          </li>
-        </ul>
+      <nav class="navbar navbar-expand-lg navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">SVITLANA KONDRATIEVA</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link navlink" aria-current="page" href="/"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navlink" href="/about.html">About me</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link navlink" href="/work.html">My works</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link navlink" href="/contact.html">Contact me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </div>
     <div class="content-container container">
