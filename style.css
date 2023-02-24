@@ -45,8 +45,11 @@ p {
   object-fit: contain;
 }
 
-.navbar-bg {
+.navbar-bg-brand {
   background-color: var(--secondary-color);
+}
+.navbar-bg {
+  background-color: white;
 }
 .navlink {
   color: #272142;
